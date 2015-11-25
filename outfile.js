@@ -1,15 +1,1 @@
-System.registerDynamic("app/submain.js", [], false, function(__require, __exports, __module) {
-  var _retrieveGlobal = System.get("@@global-helpers").prepareGlobal(__module.id, null, null);
-  (function() {
-    console.log('submain.js');
-  })();
-  return _retrieveGlobal();
-});
-
-System.registerDynamic("app/main.js", [], false, function(__require, __exports, __module) {
-  var _retrieveGlobal = System.get("@@global-helpers").prepareGlobal(__module.id, null, null);
-  (function() {
-    console.log('Hello!');
-  })();
-  return _retrieveGlobal();
-});
+System.registerDynamic("app/submain.js",[],!1,function(a,b,c){var d=System.get("@@global-helpers").prepareGlobal(c.id,null,null);return function(){console.log("submain.js")}(),d()}),System.registerDynamic("app/main.js",[],!1,function(a,b,c){var d=System.get("@@global-helpers").prepareGlobal(c.id,null,null);return function(){console.log("Hello!")}(),d()});

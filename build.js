@@ -6,7 +6,7 @@ var Builder = require('systemjs-builder');
 var builder = new Builder('');
 
 builder
-.build('app/**/*.js', 'outfile.js')
+.build('app/**/*.js', 'outfile.js', { minify: true})
 .then(function() {
   console.log('Build complete');
 })
