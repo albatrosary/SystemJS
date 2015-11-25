@@ -1,0 +1,26 @@
+{
+  "name": "systemjs-demo",
+  "version": "0.0.0",
+  "description": "SystemJS Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albatrosary/SystemJS.git"
+  },
+  "keywords": [
+    "SystemJS",
+    "npm"
+  ],
+  "author": "Fumio SAGAWA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albatrosary/SystemJS/issues"
+  },
+  "homepage": "https://github.com/albatrosary/SystemJS#readme",
+  "devDependencies": {
+    "systemjs": "^0.19.6"
+  }
+}
