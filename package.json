@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/albatrosary/SystemJS#readme",
   "devDependencies": {
-    "systemjs": "^0.19.6"
+    "systemjs": "^0.19.6",
+    "systemjs-builder": "^0.14.11"
   }
 }
